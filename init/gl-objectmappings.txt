@@ -437,31 +437,31 @@ max objectfile jit.gl.xor jit.gl.xor;
 max definesubstitution jit.gl.xor jit.gl.slab @file op.xor.jxs;
 
 max objectfile jit.gl.bloom.combine jit.gl.bloom.combine;
-max definesubstitution jit.gl.bloom.combine jit.gl.shader @file hdr.bloom.combine.jxs;
+max definesubstitution jit.gl.bloom.combine jit.gl.slab @file hdr.bloom.combine.jxs;
 
 max objectfile jit.gl.bloom jit.gl.bloom;
-max definesubstitution jit.gl.bloom jit.gl.shader @file hdr.bloom.jxs;
+max definesubstitution jit.gl.bloom jit.gl.slab @file hdr.bloom.jxs;
 
 max objectfile jit.gl.bloom.tonemap.aces jit.gl.bloom.tonemap.aces;
-max definesubstitution jit.gl.bloom.tonemap.aces jit.gl.shader @file hdr.bloom.tonemap.aces.jxs;
+max definesubstitution jit.gl.bloom.tonemap.aces jit.gl.slab @file hdr.bloom.tonemap.aces.jxs;
 
 max objectfile jit.gl.bloom.tonemap jit.gl.bloom.tonemap;
-max definesubstitution jit.gl.bloom.tonemap jit.gl.shader @file hdr.bloom.tonemap.jxs;
+max definesubstitution jit.gl.bloom.tonemap jit.gl.slab @file hdr.bloom.tonemap.jxs;
 
 max objectfile jit.gl.downsample.filter jit.gl.downsample.filter;
-max definesubstitution jit.gl.downsample.filter jit.gl.shader @file hdr.downsample.filter.jxs;
+max definesubstitution jit.gl.downsample.filter jit.gl.slab @file hdr.downsample.filter.jxs;
 
 max objectfile jit.gl.logavgluma jit.gl.logavgluma;
-max definesubstitution jit.gl.logavgluma jit.gl.shader @file hdr.logavgluma.jxs;
+max definesubstitution jit.gl.logavgluma jit.gl.slab @file hdr.logavgluma.jxs;
 
 max objectfile jit.gl.mipsamp jit.gl.mipsamp;
-max definesubstitution jit.gl.mipsamp jit.gl.shader @file hdr.mipsamp.jxs;
+max definesubstitution jit.gl.mipsamp jit.gl.slab @file hdr.mipsamp.jxs;
 
 max objectfile jit.gl.tonemap jit.gl.tonemap;
-max definesubstitution jit.gl.tonemap jit.gl.shader @file hdr.tonemap.jxs;
+max definesubstitution jit.gl.tonemap jit.gl.slab @file hdr.tonemap.jxs;
 
 max objectfile jit.gl.upsample.filter.sum jit.gl.upsample.filter.sum;
-max definesubstitution jit.gl.upsample.filter.sum jit.gl.shader @file hdr.upsample.filter.sum.jxs;
+max definesubstitution jit.gl.upsample.filter.sum jit.gl.slab @file hdr.upsample.filter.sum.jxs;
 
 max objectfile jit.gl.depth jit.gl.depth;
 max definesubstitution jit.gl.depth jit.gl.shader @file mrt.depth.jxs;

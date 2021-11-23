@@ -5,6 +5,8 @@ Max has quite a few shaders build into the application. But if you want to patch
 1. See all the shaderfiles in the autocomplete field when typing `jit.gl.`
 2. Select the shaderfile and it will translate to `jit.gl.slab @file <shaderfile>`
 
+![](media/screenshot.png)
+
 ## Support my projects
 
 **Consider to [name a fair price](http://gumroad.com/tmhglnd)**
