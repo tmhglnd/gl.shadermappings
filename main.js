@@ -26,7 +26,7 @@ function loadFolder(p){
 			n = 'jit.gl.' + n.replace(/^[^.]+\./g, '');
 
 			let o = 'jit.gl.shader';
-			if (t.match(/cc|co|cf|gn|hdr|op|tp|td|tr/)){
+			if (t.match(/cc|co|cf|gn|hdr|mrt|ssao|op|tp|td|tr/)){
 				o = 'jit.gl.slab';
 			}
 			mappings += `max objectfile ${n} ${n};\n`;

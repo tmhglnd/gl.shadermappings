@@ -464,46 +464,46 @@ max objectfile jit.gl.upsample.filter.sum jit.gl.upsample.filter.sum;
 max definesubstitution jit.gl.upsample.filter.sum jit.gl.slab @file hdr.upsample.filter.sum.jxs;
 
 max objectfile jit.gl.depth jit.gl.depth;
-max definesubstitution jit.gl.depth jit.gl.shader @file mrt.depth.jxs;
+max definesubstitution jit.gl.depth jit.gl.slab @file mrt.depth.jxs;
 
 max objectfile jit.gl.depth2pass jit.gl.depth2pass;
-max definesubstitution jit.gl.depth2pass jit.gl.shader @file mrt.depth2pass.jxs;
+max definesubstitution jit.gl.depth2pass jit.gl.slab @file mrt.depth2pass.jxs;
 
 max objectfile jit.gl.dof jit.gl.dof;
-max definesubstitution jit.gl.dof jit.gl.shader @file mrt.dof.jxs;
+max definesubstitution jit.gl.dof jit.gl.slab @file mrt.dof.jxs;
 
 max objectfile jit.gl.fxaa jit.gl.fxaa;
-max definesubstitution jit.gl.fxaa jit.gl.shader @file mrt.fxaa.jxs;
+max definesubstitution jit.gl.fxaa jit.gl.slab @file mrt.fxaa.jxs;
 
 max objectfile jit.gl.motion.blur jit.gl.motion.blur;
-max definesubstitution jit.gl.motion.blur jit.gl.shader @file mrt.motion.blur.jxs;
+max definesubstitution jit.gl.motion.blur jit.gl.slab @file mrt.motion.blur.jxs;
 
 max objectfile jit.gl.motion.glitch jit.gl.motion.glitch;
-max definesubstitution jit.gl.motion.glitch jit.gl.shader @file mrt.motion.glitch.jxs;
+max definesubstitution jit.gl.motion.glitch jit.gl.slab @file mrt.motion.glitch.jxs;
 
 max objectfile jit.gl.render.directional jit.gl.render.directional;
-max definesubstitution jit.gl.render.directional jit.gl.shader @file mrt.render.directional.jxs;
+max definesubstitution jit.gl.render.directional jit.gl.slab @file mrt.render.directional.jxs;
 
 max objectfile jit.gl.simple.render jit.gl.simple.render;
-max definesubstitution jit.gl.simple.render jit.gl.shader @file mrt.simple.render.jxs;
+max definesubstitution jit.gl.simple.render jit.gl.slab @file mrt.simple.render.jxs;
 
 max objectfile jit.gl.simple.shade jit.gl.simple.shade;
-max definesubstitution jit.gl.simple.shade jit.gl.shader @file mrt.simple.shade.jxs;
+max definesubstitution jit.gl.simple.shade jit.gl.slab @file mrt.simple.shade.jxs;
 
 max objectfile jit.gl.ssao.render jit.gl.ssao.render;
-max definesubstitution jit.gl.ssao.render jit.gl.shader @file mrt.ssao.render.jxs;
+max definesubstitution jit.gl.ssao.render jit.gl.slab @file mrt.ssao.render.jxs;
 
 max objectfile jit.gl.unpack jit.gl.unpack;
-max definesubstitution jit.gl.unpack jit.gl.shader @file mrt.unpack.jxs;
+max definesubstitution jit.gl.unpack jit.gl.slab @file mrt.unpack.jxs;
 
 max objectfile jit.gl.blur.x jit.gl.blur.x;
-max definesubstitution jit.gl.blur.x jit.gl.shader @file ssao.blur.x.jxs;
+max definesubstitution jit.gl.blur.x jit.gl.slab @file ssao.blur.x.jxs;
 
 max objectfile jit.gl.blur.y.depth jit.gl.blur.y.depth;
-max definesubstitution jit.gl.blur.y.depth jit.gl.shader @file ssao.blur.y.depth.jxs;
+max definesubstitution jit.gl.blur.y.depth jit.gl.slab @file ssao.blur.y.depth.jxs;
 
 max objectfile jit.gl.blur.y jit.gl.blur.y;
-max definesubstitution jit.gl.blur.y jit.gl.shader @file ssao.blur.y.jxs;
+max definesubstitution jit.gl.blur.y jit.gl.slab @file ssao.blur.y.jxs;
 
 max objectfile jit.gl.box8.vp jit.gl.box8.vp;
 max definesubstitution jit.gl.box8.vp jit.gl.slab @file cf.box8.vp.glsl;
