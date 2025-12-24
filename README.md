@@ -1,8 +1,7 @@
 # gl.shadermappings
 
-:::warning Deprecated
-This package is deprecated. Please install the [AV Toolbox](https://github.com/tmhglnd/av-toolbox) through the Package Manager in Max8/9
-:::
+> [!WARNING] Deprecated
+> This package is deprecated. Please install the [AV Toolbox](https://github.com/tmhglnd/av-toolbox) through the Package Manager in Max8/9
 
 Max has quite a few shaders build into the application. But if you want to patch with them you have to type `jit.gl.slab @file <shaderfile>` which is usually quite a hassle. Also you have to remember what the shader file name is. This simple objectmappings file will do all this work for you. How it works:
 
