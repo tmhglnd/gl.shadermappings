@@ -1,636 +1,636 @@
-max objectfile jit.gl.alphaglue jit.gl.alphaglue;
-max definesubstitution jit.gl.alphaglue jit.gl.slab @file cc.alphaglue.jxs;
+max objectfile jit.gl.slab.alphaglue jit.gl.slab.alphaglue;
+max definesubstitution jit.gl.slab.alphaglue jit.gl.slab @file cc.alphaglue.jxs;
 
-max objectfile jit.gl.brcosa jit.gl.brcosa;
-max definesubstitution jit.gl.brcosa jit.gl.slab @file cc.brcosa.jxs;
+max objectfile jit.gl.slab.brcosa jit.gl.slab.brcosa;
+max definesubstitution jit.gl.slab.brcosa jit.gl.slab @file cc.brcosa.jxs;
 
-max objectfile jit.gl.brightness.ip jit.gl.brightness.ip;
-max definesubstitution jit.gl.brightness.ip jit.gl.slab @file cc.brightness.ip.jxs;
+max objectfile jit.gl.slab.brightness.ip jit.gl.slab.brightness.ip;
+max definesubstitution jit.gl.slab.brightness.ip jit.gl.slab @file cc.brightness.ip.jxs;
 
-max objectfile jit.gl.colormap jit.gl.colormap;
-max definesubstitution jit.gl.colormap jit.gl.slab @file cc.colormap.jxs;
+max objectfile jit.gl.slab.colormap jit.gl.slab.colormap;
+max definesubstitution jit.gl.slab.colormap jit.gl.slab @file cc.colormap.jxs;
 
-max objectfile jit.gl.contrast.ip jit.gl.contrast.ip;
-max definesubstitution jit.gl.contrast.ip jit.gl.slab @file cc.contrast.ip.jxs;
+max objectfile jit.gl.slab.contrast.ip jit.gl.slab.contrast.ip;
+max definesubstitution jit.gl.slab.contrast.ip jit.gl.slab @file cc.contrast.ip.jxs;
 
-max objectfile jit.gl.exrdisplay jit.gl.exrdisplay;
-max definesubstitution jit.gl.exrdisplay jit.gl.slab @file cc.exrdisplay.jxs;
+max objectfile jit.gl.slab.exrdisplay jit.gl.slab.exrdisplay;
+max definesubstitution jit.gl.slab.exrdisplay jit.gl.slab @file cc.exrdisplay.jxs;
 
-max objectfile jit.gl.grgb2rgba jit.gl.grgb2rgba;
-max definesubstitution jit.gl.grgb2rgba jit.gl.slab @file cc.grgb2rgba.jxs;
+max objectfile jit.gl.slab.grgb2rgba jit.gl.slab.grgb2rgba;
+max definesubstitution jit.gl.slab.grgb2rgba jit.gl.slab @file cc.grgb2rgba.jxs;
 
-max objectfile jit.gl.hsl2rgb jit.gl.hsl2rgb;
-max definesubstitution jit.gl.hsl2rgb jit.gl.slab @file cc.hsl2rgb.jxs;
+max objectfile jit.gl.slab.hsl2rgb jit.gl.slab.hsl2rgb;
+max definesubstitution jit.gl.slab.hsl2rgb jit.gl.slab @file cc.hsl2rgb.jxs;
 
-max objectfile jit.gl.planemap jit.gl.planemap;
-max definesubstitution jit.gl.planemap jit.gl.slab @file cc.planemap.jxs;
+max objectfile jit.gl.slab.planemap jit.gl.slab.planemap;
+max definesubstitution jit.gl.slab.planemap jit.gl.slab @file cc.planemap.jxs;
 
-max objectfile jit.gl.rgb2hsl jit.gl.rgb2hsl;
-max definesubstitution jit.gl.rgb2hsl jit.gl.slab @file cc.rgb2hsl.jxs;
+max objectfile jit.gl.slab.rgb2hsl jit.gl.slab.rgb2hsl;
+max definesubstitution jit.gl.slab.rgb2hsl jit.gl.slab @file cc.rgb2hsl.jxs;
 
-max objectfile jit.gl.rgb2yuv jit.gl.rgb2yuv;
-max definesubstitution jit.gl.rgb2yuv jit.gl.slab @file cc.rgb2yuv.jxs;
+max objectfile jit.gl.slab.rgb2yuv jit.gl.slab.rgb2yuv;
+max definesubstitution jit.gl.slab.rgb2yuv jit.gl.slab @file cc.rgb2yuv.jxs;
 
-max objectfile jit.gl.rgba2grgb jit.gl.rgba2grgb;
-max definesubstitution jit.gl.rgba2grgb jit.gl.slab @file cc.rgba2grgb.jxs;
+max objectfile jit.gl.slab.rgba2grgb jit.gl.slab.rgba2grgb;
+max definesubstitution jit.gl.slab.rgba2grgb jit.gl.slab @file cc.rgba2grgb.jxs;
 
-max objectfile jit.gl.rgba2uyvy jit.gl.rgba2uyvy;
-max definesubstitution jit.gl.rgba2uyvy jit.gl.slab @file cc.rgba2uyvy.jxs;
+max objectfile jit.gl.slab.rgba2uyvy jit.gl.slab.rgba2uyvy;
+max definesubstitution jit.gl.slab.rgba2uyvy jit.gl.slab @file cc.rgba2uyvy.jxs;
 
-max objectfile jit.gl.saturate.ip jit.gl.saturate.ip;
-max definesubstitution jit.gl.saturate.ip jit.gl.slab @file cc.saturate.ip.jxs;
+max objectfile jit.gl.slab.saturate.ip jit.gl.slab.saturate.ip;
+max definesubstitution jit.gl.slab.saturate.ip jit.gl.slab @file cc.saturate.ip.jxs;
 
-max objectfile jit.gl.scalebias jit.gl.scalebias;
-max definesubstitution jit.gl.scalebias jit.gl.slab @file cc.scalebias.jxs;
+max objectfile jit.gl.slab.scalebias jit.gl.slab.scalebias;
+max definesubstitution jit.gl.slab.scalebias jit.gl.slab @file cc.scalebias.jxs;
 
-max objectfile jit.gl.uyvy2rgba.exp jit.gl.uyvy2rgba.exp;
-max definesubstitution jit.gl.uyvy2rgba.exp jit.gl.slab @file cc.uyvy2rgba.exp.jxs;
+max objectfile jit.gl.slab.uyvy2rgba.exp jit.gl.slab.uyvy2rgba.exp;
+max definesubstitution jit.gl.slab.uyvy2rgba.exp jit.gl.slab @file cc.uyvy2rgba.exp.jxs;
 
-max objectfile jit.gl.uyvy2rgba jit.gl.uyvy2rgba;
-max definesubstitution jit.gl.uyvy2rgba jit.gl.slab @file cc.uyvy2rgba.jxs;
+max objectfile jit.gl.slab.uyvy2rgba jit.gl.slab.uyvy2rgba;
+max definesubstitution jit.gl.slab.uyvy2rgba jit.gl.slab @file cc.uyvy2rgba.jxs;
 
-max objectfile jit.gl.uyvy2rgba.lite jit.gl.uyvy2rgba.lite;
-max definesubstitution jit.gl.uyvy2rgba.lite jit.gl.slab @file cc.uyvy2rgba.lite.jxs;
+max objectfile jit.gl.slab.uyvy2rgba.lite jit.gl.slab.uyvy2rgba.lite;
+max definesubstitution jit.gl.slab.uyvy2rgba.lite jit.gl.slab @file cc.uyvy2rgba.lite.jxs;
 
-max objectfile jit.gl.accum.erase jit.gl.accum.erase;
-max definesubstitution jit.gl.accum.erase jit.gl.slab @file co.accum.erase.jxs;
+max objectfile jit.gl.slab.accum.erase jit.gl.slab.accum.erase;
+max definesubstitution jit.gl.slab.accum.erase jit.gl.slab @file co.accum.erase.jxs;
 
-max objectfile jit.gl.accum jit.gl.accum;
-max definesubstitution jit.gl.accum jit.gl.slab @file co.accum.jxs;
+max objectfile jit.gl.slab.accum jit.gl.slab.accum;
+max definesubstitution jit.gl.slab.accum jit.gl.slab @file co.accum.jxs;
 
-max objectfile jit.gl.additive jit.gl.additive;
-max definesubstitution jit.gl.additive jit.gl.slab @file co.additive.jxs;
+max objectfile jit.gl.slab.additive jit.gl.slab.additive;
+max definesubstitution jit.gl.slab.additive jit.gl.slab @file co.additive.jxs;
 
-max objectfile jit.gl.alphablend jit.gl.alphablend;
-max definesubstitution jit.gl.alphablend jit.gl.slab @file co.alphablend.jxs;
+max objectfile jit.gl.slab.alphablend jit.gl.slab.alphablend;
+max definesubstitution jit.gl.slab.alphablend jit.gl.slab @file co.alphablend.jxs;
 
-max objectfile jit.gl.average jit.gl.average;
-max definesubstitution jit.gl.average jit.gl.slab @file co.average.jxs;
+max objectfile jit.gl.slab.average jit.gl.slab.average;
+max definesubstitution jit.gl.slab.average jit.gl.slab @file co.average.jxs;
 
-max objectfile jit.gl.brightlight jit.gl.brightlight;
-max definesubstitution jit.gl.brightlight jit.gl.slab @file co.brightlight.jxs;
+max objectfile jit.gl.slab.brightlight jit.gl.slab.brightlight;
+max definesubstitution jit.gl.slab.brightlight jit.gl.slab @file co.brightlight.jxs;
 
-max objectfile jit.gl.burn jit.gl.burn;
-max definesubstitution jit.gl.burn jit.gl.slab @file co.burn.jxs;
+max objectfile jit.gl.slab.burn jit.gl.slab.burn;
+max definesubstitution jit.gl.slab.burn jit.gl.slab @file co.burn.jxs;
 
-max objectfile jit.gl.chromakey.hsv jit.gl.chromakey.hsv;
-max definesubstitution jit.gl.chromakey.hsv jit.gl.slab @file co.chromakey.hsv.jxs;
+max objectfile jit.gl.slab.chromakey.hsv jit.gl.slab.chromakey.hsv;
+max definesubstitution jit.gl.slab.chromakey.hsv jit.gl.slab @file co.chromakey.hsv.jxs;
 
-max objectfile jit.gl.chromakey jit.gl.chromakey;
-max definesubstitution jit.gl.chromakey jit.gl.slab @file co.chromakey.jxs;
+max objectfile jit.gl.slab.chromakey jit.gl.slab.chromakey;
+max definesubstitution jit.gl.slab.chromakey jit.gl.slab @file co.chromakey.jxs;
 
-max objectfile jit.gl.darken jit.gl.darken;
-max definesubstitution jit.gl.darken jit.gl.slab @file co.darken.jxs;
+max objectfile jit.gl.slab.darken jit.gl.slab.darken;
+max definesubstitution jit.gl.slab.darken jit.gl.slab @file co.darken.jxs;
 
-max objectfile jit.gl.difference jit.gl.difference;
-max definesubstitution jit.gl.difference jit.gl.slab @file co.difference.jxs;
+max objectfile jit.gl.slab.difference jit.gl.slab.difference;
+max definesubstitution jit.gl.slab.difference jit.gl.slab @file co.difference.jxs;
 
-max objectfile jit.gl.dodge jit.gl.dodge;
-max definesubstitution jit.gl.dodge jit.gl.slab @file co.dodge.jxs;
+max objectfile jit.gl.slab.dodge jit.gl.slab.dodge;
+max definesubstitution jit.gl.slab.dodge jit.gl.slab @file co.dodge.jxs;
 
-max objectfile jit.gl.exclude jit.gl.exclude;
-max definesubstitution jit.gl.exclude jit.gl.slab @file co.exclude.jxs;
+max objectfile jit.gl.slab.exclude jit.gl.slab.exclude;
+max definesubstitution jit.gl.slab.exclude jit.gl.slab @file co.exclude.jxs;
 
-max objectfile jit.gl.freeze jit.gl.freeze;
-max definesubstitution jit.gl.freeze jit.gl.slab @file co.freeze.jxs;
+max objectfile jit.gl.slab.freeze jit.gl.slab.freeze;
+max definesubstitution jit.gl.slab.freeze jit.gl.slab @file co.freeze.jxs;
 
-max objectfile jit.gl.glow jit.gl.glow;
-max definesubstitution jit.gl.glow jit.gl.slab @file co.glow.jxs;
+max objectfile jit.gl.slab.glow jit.gl.slab.glow;
+max definesubstitution jit.gl.slab.glow jit.gl.slab @file co.glow.jxs;
 
-max objectfile jit.gl.hardlight jit.gl.hardlight;
-max definesubstitution jit.gl.hardlight jit.gl.slab @file co.hardlight.jxs;
+max objectfile jit.gl.slab.hardlight jit.gl.slab.hardlight;
+max definesubstitution jit.gl.slab.hardlight jit.gl.slab @file co.hardlight.jxs;
 
-max objectfile jit.gl.heat jit.gl.heat;
-max definesubstitution jit.gl.heat jit.gl.slab @file co.heat.jxs;
+max objectfile jit.gl.slab.heat jit.gl.slab.heat;
+max definesubstitution jit.gl.slab.heat jit.gl.slab @file co.heat.jxs;
 
-max objectfile jit.gl.inverse jit.gl.inverse;
-max definesubstitution jit.gl.inverse jit.gl.slab @file co.inverse.jxs;
+max objectfile jit.gl.slab.inverse jit.gl.slab.inverse;
+max definesubstitution jit.gl.slab.inverse jit.gl.slab @file co.inverse.jxs;
 
-max objectfile jit.gl.lighten jit.gl.lighten;
-max definesubstitution jit.gl.lighten jit.gl.slab @file co.lighten.jxs;
+max objectfile jit.gl.slab.lighten jit.gl.slab.lighten;
+max definesubstitution jit.gl.slab.lighten jit.gl.slab @file co.lighten.jxs;
 
-max objectfile jit.gl.lumakey jit.gl.lumakey;
-max definesubstitution jit.gl.lumakey jit.gl.slab @file co.lumakey.jxs;
+max objectfile jit.gl.slab.lumakey jit.gl.slab.lumakey;
+max definesubstitution jit.gl.slab.lumakey jit.gl.slab @file co.lumakey.jxs;
 
-max objectfile jit.gl.multiply jit.gl.multiply;
-max definesubstitution jit.gl.multiply jit.gl.slab @file co.multiply.jxs;
+max objectfile jit.gl.slab.multiply jit.gl.slab.multiply;
+max definesubstitution jit.gl.slab.multiply jit.gl.slab @file co.multiply.jxs;
 
-max objectfile jit.gl.negate jit.gl.negate;
-max definesubstitution jit.gl.negate jit.gl.slab @file co.negate.jxs;
+max objectfile jit.gl.slab.negate jit.gl.slab.negate;
+max definesubstitution jit.gl.slab.negate jit.gl.slab @file co.negate.jxs;
 
-max objectfile jit.gl.normal jit.gl.normal;
-max definesubstitution jit.gl.normal jit.gl.slab @file co.normal.jxs;
+max objectfile jit.gl.slab.normal jit.gl.slab.normal;
+max definesubstitution jit.gl.slab.normal jit.gl.slab @file co.normal.jxs;
 
-max objectfile jit.gl.overlay jit.gl.overlay;
-max definesubstitution jit.gl.overlay jit.gl.slab @file co.overlay.jxs;
+max objectfile jit.gl.slab.overlay jit.gl.slab.overlay;
+max definesubstitution jit.gl.slab.overlay jit.gl.slab @file co.overlay.jxs;
 
-max objectfile jit.gl.reflect jit.gl.reflect;
-max definesubstitution jit.gl.reflect jit.gl.slab @file co.reflect.jxs;
+max objectfile jit.gl.slab.reflect jit.gl.slab.reflect;
+max definesubstitution jit.gl.slab.reflect jit.gl.slab @file co.reflect.jxs;
 
-max objectfile jit.gl.screen jit.gl.screen;
-max definesubstitution jit.gl.screen jit.gl.slab @file co.screen.jxs;
+max objectfile jit.gl.slab.screen jit.gl.slab.screen;
+max definesubstitution jit.gl.slab.screen jit.gl.slab @file co.screen.jxs;
 
-max objectfile jit.gl.softlight jit.gl.softlight;
-max definesubstitution jit.gl.softlight jit.gl.slab @file co.softlight.jxs;
+max objectfile jit.gl.slab.softlight jit.gl.slab.softlight;
+max definesubstitution jit.gl.slab.softlight jit.gl.slab @file co.softlight.jxs;
 
-max objectfile jit.gl.stamp jit.gl.stamp;
-max definesubstitution jit.gl.stamp jit.gl.slab @file co.stamp.jxs;
+max objectfile jit.gl.slab.stamp jit.gl.slab.stamp;
+max definesubstitution jit.gl.slab.stamp jit.gl.slab @file co.stamp.jxs;
 
-max objectfile jit.gl.subtractive jit.gl.subtractive;
-max definesubstitution jit.gl.subtractive jit.gl.slab @file co.subtractive.jxs;
+max objectfile jit.gl.slab.subtractive jit.gl.slab.subtractive;
+max definesubstitution jit.gl.slab.subtractive jit.gl.slab @file co.subtractive.jxs;
 
-max objectfile jit.gl.xfade jit.gl.xfade;
-max definesubstitution jit.gl.xfade jit.gl.slab @file co.xfade.jxs;
+max objectfile jit.gl.slab.xfade jit.gl.slab.xfade;
+max definesubstitution jit.gl.slab.xfade jit.gl.slab @file co.xfade.jxs;
 
-max objectfile jit.gl.blur jit.gl.blur;
-max definesubstitution jit.gl.blur jit.gl.slab @file cf.blur.jxs;
+max objectfile jit.gl.slab.blur jit.gl.slab.blur;
+max definesubstitution jit.gl.slab.blur jit.gl.slab @file cf.blur.jxs;
 
-max objectfile jit.gl.convolve jit.gl.convolve;
-max definesubstitution jit.gl.convolve jit.gl.slab @file cf.convolve.jxs;
+max objectfile jit.gl.slab.convolve jit.gl.slab.convolve;
+max definesubstitution jit.gl.slab.convolve jit.gl.slab @file cf.convolve.jxs;
 
-max objectfile jit.gl.deinterlace jit.gl.deinterlace;
-max definesubstitution jit.gl.deinterlace jit.gl.slab @file cf.deinterlace.jxs;
+max objectfile jit.gl.slab.deinterlace jit.gl.slab.deinterlace;
+max definesubstitution jit.gl.slab.deinterlace jit.gl.slab @file cf.deinterlace.jxs;
 
-max objectfile jit.gl.dilate jit.gl.dilate;
-max definesubstitution jit.gl.dilate jit.gl.slab @file cf.dilate.jxs;
+max objectfile jit.gl.slab.dilate jit.gl.slab.dilate;
+max definesubstitution jit.gl.slab.dilate jit.gl.slab @file cf.dilate.jxs;
 
-max objectfile jit.gl.edgedetect jit.gl.edgedetect;
-max definesubstitution jit.gl.edgedetect jit.gl.slab @file cf.edgedetect.jxs;
+max objectfile jit.gl.slab.edgedetect jit.gl.slab.edgedetect;
+max definesubstitution jit.gl.slab.edgedetect jit.gl.slab @file cf.edgedetect.jxs;
 
-max objectfile jit.gl.emboss jit.gl.emboss;
-max definesubstitution jit.gl.emboss jit.gl.slab @file cf.emboss.jxs;
+max objectfile jit.gl.slab.emboss jit.gl.slab.emboss;
+max definesubstitution jit.gl.slab.emboss jit.gl.slab @file cf.emboss.jxs;
 
-max objectfile jit.gl.erode jit.gl.erode;
-max definesubstitution jit.gl.erode jit.gl.slab @file cf.erode.jxs;
+max objectfile jit.gl.slab.erode jit.gl.slab.erode;
+max definesubstitution jit.gl.slab.erode jit.gl.slab @file cf.erode.jxs;
 
-max objectfile jit.gl.gaussian.2p jit.gl.gaussian.2p;
-max definesubstitution jit.gl.gaussian.2p jit.gl.slab @file cf.gaussian.2p.jxs;
+max objectfile jit.gl.slab.gaussian.2p jit.gl.slab.gaussian.2p;
+max definesubstitution jit.gl.slab.gaussian.2p jit.gl.slab @file cf.gaussian.2p.jxs;
 
-max objectfile jit.gl.laplace jit.gl.laplace;
-max definesubstitution jit.gl.laplace jit.gl.slab @file cf.laplace.jxs;
+max objectfile jit.gl.slab.laplace jit.gl.slab.laplace;
+max definesubstitution jit.gl.slab.laplace jit.gl.slab @file cf.laplace.jxs;
 
-max objectfile jit.gl.median.2p jit.gl.median.2p;
-max definesubstitution jit.gl.median.2p jit.gl.slab @file cf.median.2p.jxs;
+max objectfile jit.gl.slab.median.2p jit.gl.slab.median.2p;
+max definesubstitution jit.gl.slab.median.2p jit.gl.slab @file cf.median.2p.jxs;
 
-max objectfile jit.gl.normals jit.gl.normals;
-max definesubstitution jit.gl.normals jit.gl.slab @file cf.normals.jxs;
+max objectfile jit.gl.slab.normals jit.gl.slab.normals;
+max definesubstitution jit.gl.slab.normals jit.gl.slab @file cf.normals.jxs;
 
-max objectfile jit.gl.radialblur jit.gl.radialblur;
-max definesubstitution jit.gl.radialblur jit.gl.slab @file cf.radialblur.jxs;
+max objectfile jit.gl.slab.radialblur jit.gl.slab.radialblur;
+max definesubstitution jit.gl.slab.radialblur jit.gl.slab @file cf.radialblur.jxs;
 
-max objectfile jit.gl.sharpen.ip jit.gl.sharpen.ip;
-max definesubstitution jit.gl.sharpen.ip jit.gl.slab @file cf.sharpen.ip.jxs;
+max objectfile jit.gl.slab.sharpen.ip jit.gl.slab.sharpen.ip;
+max definesubstitution jit.gl.slab.sharpen.ip jit.gl.slab @file cf.sharpen.ip.jxs;
 
-max objectfile jit.gl.sharpen jit.gl.sharpen;
-max definesubstitution jit.gl.sharpen jit.gl.slab @file cf.sharpen.jxs;
+max objectfile jit.gl.slab.sharpen jit.gl.slab.sharpen;
+max definesubstitution jit.gl.slab.sharpen jit.gl.slab @file cf.sharpen.jxs;
 
-max objectfile jit.gl.sobel jit.gl.sobel;
-max definesubstitution jit.gl.sobel jit.gl.slab @file cf.sobel.jxs;
+max objectfile jit.gl.slab.sobel jit.gl.slab.sobel;
+max definesubstitution jit.gl.slab.sobel jit.gl.slab @file cf.sobel.jxs;
 
-max objectfile jit.gl.bricks.aa jit.gl.bricks.aa;
-max definesubstitution jit.gl.bricks.aa jit.gl.slab @file gn.bricks.aa.jxs;
+max objectfile jit.gl.slab.bricks.aa jit.gl.slab.bricks.aa;
+max definesubstitution jit.gl.slab.bricks.aa jit.gl.slab @file gn.bricks.aa.jxs;
 
-max objectfile jit.gl.bricks jit.gl.bricks;
-max definesubstitution jit.gl.bricks jit.gl.slab @file gn.bricks.jxs;
+max objectfile jit.gl.slab.bricks jit.gl.slab.bricks;
+max definesubstitution jit.gl.slab.bricks jit.gl.slab @file gn.bricks.jxs;
 
-max objectfile jit.gl.checker.aa jit.gl.checker.aa;
-max definesubstitution jit.gl.checker.aa jit.gl.slab @file gn.checker.aa.jxs;
+max objectfile jit.gl.slab.checker.aa jit.gl.slab.checker.aa;
+max definesubstitution jit.gl.slab.checker.aa jit.gl.slab @file gn.checker.aa.jxs;
 
-max objectfile jit.gl.checker jit.gl.checker;
-max definesubstitution jit.gl.checker jit.gl.slab @file gn.checker.jxs;
+max objectfile jit.gl.slab.checker jit.gl.slab.checker;
+max definesubstitution jit.gl.slab.checker jit.gl.slab @file gn.checker.jxs;
 
-max objectfile jit.gl.crosstile jit.gl.crosstile;
-max definesubstitution jit.gl.crosstile jit.gl.slab @file gn.crosstile.jxs;
+max objectfile jit.gl.slab.crosstile jit.gl.slab.crosstile;
+max definesubstitution jit.gl.slab.crosstile jit.gl.slab @file gn.crosstile.jxs;
 
-max objectfile jit.gl.gloop jit.gl.gloop;
-max definesubstitution jit.gl.gloop jit.gl.slab @file gn.gloop.jxs;
+max objectfile jit.gl.slab.gloop jit.gl.slab.gloop;
+max definesubstitution jit.gl.slab.gloop jit.gl.slab @file gn.gloop.jxs;
 
-max objectfile jit.gl.gnoise.2d jit.gl.gnoise.2d;
-max definesubstitution jit.gl.gnoise.2d jit.gl.slab @file gn.gnoise.2d.jxs;
+max objectfile jit.gl.slab.gnoise.2d jit.gl.slab.gnoise.2d;
+max definesubstitution jit.gl.slab.gnoise.2d jit.gl.slab @file gn.gnoise.2d.jxs;
 
-max objectfile jit.gl.gradperm jit.gl.gradperm;
-max definesubstitution jit.gl.gradperm jit.gl.slab @file gn.gradperm.png;
+max objectfile jit.gl.slab.gradperm jit.gl.slab.gradperm;
+max definesubstitution jit.gl.slab.gradperm jit.gl.slab @file gn.gradperm.png;
 
-max objectfile jit.gl.spiderweb jit.gl.spiderweb;
-max definesubstitution jit.gl.spiderweb jit.gl.slab @file gn.spiderweb.jxs;
+max objectfile jit.gl.slab.spiderweb jit.gl.slab.spiderweb;
+max definesubstitution jit.gl.slab.spiderweb jit.gl.slab @file gn.spiderweb.jxs;
 
-max objectfile jit.gl.spirals jit.gl.spirals;
-max definesubstitution jit.gl.spirals jit.gl.slab @file gn.spirals.jxs;
+max objectfile jit.gl.slab.spirals jit.gl.slab.spirals;
+max definesubstitution jit.gl.slab.spirals jit.gl.slab @file gn.spirals.jxs;
 
-max objectfile jit.gl.stripes.aa jit.gl.stripes.aa;
-max definesubstitution jit.gl.stripes.aa jit.gl.slab @file gn.stripes.aa.jxs;
+max objectfile jit.gl.slab.stripes.aa jit.gl.slab.stripes.aa;
+max definesubstitution jit.gl.slab.stripes.aa jit.gl.slab @file gn.stripes.aa.jxs;
 
-max objectfile jit.gl.stripes jit.gl.stripes;
-max definesubstitution jit.gl.stripes jit.gl.slab @file gn.stripes.jxs;
+max objectfile jit.gl.slab.stripes jit.gl.slab.stripes;
+max definesubstitution jit.gl.slab.stripes jit.gl.slab @file gn.stripes.jxs;
 
-max objectfile jit.gl.billboard jit.gl.billboard;
-max definesubstitution jit.gl.billboard jit.gl.shader @file gm.billboard.jxs;
+max objectfile jit.gl.shader.billboard jit.gl.shader.billboard;
+max definesubstitution jit.gl.shader.billboard jit.gl.shader @file gm.billboard.jxs;
 
-max objectfile jit.gl.bspline jit.gl.bspline;
-max definesubstitution jit.gl.bspline jit.gl.shader @file gm.bspline.jxs;
+max objectfile jit.gl.shader.bspline jit.gl.shader.bspline;
+max definesubstitution jit.gl.shader.bspline jit.gl.shader @file gm.bspline.jxs;
 
-max objectfile jit.gl.illumilines jit.gl.illumilines;
-max definesubstitution jit.gl.illumilines jit.gl.shader @file gm.illumilines.jxs;
+max objectfile jit.gl.shader.illumilines jit.gl.shader.illumilines;
+max definesubstitution jit.gl.shader.illumilines jit.gl.shader @file gm.illumilines.jxs;
 
-max objectfile jit.gl.normals jit.gl.normals;
-max definesubstitution jit.gl.normals jit.gl.shader @file gm.normals.jxs;
+max objectfile jit.gl.shader.normals jit.gl.shader.normals;
+max definesubstitution jit.gl.shader.normals jit.gl.shader @file gm.normals.jxs;
 
-max objectfile jit.gl.solidpoint jit.gl.solidpoint;
-max definesubstitution jit.gl.solidpoint jit.gl.shader @file gm.solidpoint.jxs;
+max objectfile jit.gl.shader.solidpoint jit.gl.shader.solidpoint;
+max definesubstitution jit.gl.shader.solidpoint jit.gl.shader @file gm.solidpoint.jxs;
 
-max objectfile jit.gl.videopoint jit.gl.videopoint;
-max definesubstitution jit.gl.videopoint jit.gl.shader @file gm.videopoint.jxs;
+max objectfile jit.gl.shader.videopoint jit.gl.shader.videopoint;
+max definesubstitution jit.gl.shader.videopoint jit.gl.shader @file gm.videopoint.jxs;
 
-max objectfile jit.gl.glass jit.gl.glass;
-max definesubstitution jit.gl.glass jit.gl.shader @file mat.glass.jxs;
+max objectfile jit.gl.shader.glass jit.gl.shader.glass;
+max definesubstitution jit.gl.shader.glass jit.gl.shader @file mat.glass.jxs;
 
-max objectfile jit.gl.gooch jit.gl.gooch;
-max definesubstitution jit.gl.gooch jit.gl.shader @file mat.gooch.jxs;
+max objectfile jit.gl.shader.gooch jit.gl.shader.gooch;
+max definesubstitution jit.gl.shader.gooch jit.gl.shader @file mat.gooch.jxs;
 
-max objectfile jit.gl.oren-nayer.lut jit.gl.oren-nayer.lut;
-max definesubstitution jit.gl.oren-nayer.lut jit.gl.shader @file mat.oren-nayer.lut.jxs;
+max objectfile jit.gl.shader.oren-nayer.lut jit.gl.shader.oren-nayer.lut;
+max definesubstitution jit.gl.shader.oren-nayer.lut jit.gl.shader @file mat.oren-nayer.lut.jxs;
 
-max objectfile jit.gl.phong.glsl jit.gl.phong.glsl;
-max definesubstitution jit.gl.phong.glsl jit.gl.shader @file mat.phong.glsl.jxs;
+max objectfile jit.gl.shader.phong.glsl jit.gl.shader.phong.glsl;
+max definesubstitution jit.gl.shader.phong.glsl jit.gl.shader @file mat.phong.glsl.jxs;
 
-max objectfile jit.gl.plastic jit.gl.plastic;
-max definesubstitution jit.gl.plastic jit.gl.shader @file mat.plastic.jxs;
+max objectfile jit.gl.shader.plastic jit.gl.shader.plastic;
+max definesubstitution jit.gl.shader.plastic jit.gl.shader @file mat.plastic.jxs;
 
-max objectfile jit.gl.polkadots jit.gl.polkadots;
-max definesubstitution jit.gl.polkadots jit.gl.shader @file mat.polkadots.jxs;
+max objectfile jit.gl.shader.polkadots jit.gl.shader.polkadots;
+max definesubstitution jit.gl.shader.polkadots jit.gl.shader @file mat.polkadots.jxs;
 
-max objectfile jit.gl.shiny jit.gl.shiny;
-max definesubstitution jit.gl.shiny jit.gl.shader @file mat.shiny.jxs;
+max objectfile jit.gl.shader.shiny jit.gl.shader.shiny;
+max definesubstitution jit.gl.shader.shiny jit.gl.shader @file mat.shiny.jxs;
 
-max objectfile jit.gl.sinebump jit.gl.sinebump;
-max definesubstitution jit.gl.sinebump jit.gl.shader @file mat.sinebump.jxs;
+max objectfile jit.gl.shader.sinebump jit.gl.shader.sinebump;
+max definesubstitution jit.gl.shader.sinebump jit.gl.shader @file mat.sinebump.jxs;
 
-max objectfile jit.gl.toon jit.gl.toon;
-max definesubstitution jit.gl.toon jit.gl.shader @file mat.toon.jxs;
+max objectfile jit.gl.shader.toon jit.gl.shader.toon;
+max definesubstitution jit.gl.shader.toon jit.gl.shader @file mat.toon.jxs;
 
-max objectfile jit.gl.xray jit.gl.xray;
-max definesubstitution jit.gl.xray jit.gl.shader @file mat.xray.jxs;
+max objectfile jit.gl.shader.xray jit.gl.shader.xray;
+max definesubstitution jit.gl.shader.xray jit.gl.shader @file mat.xray.jxs;
 
-max objectfile jit.gl.abs jit.gl.abs;
-max definesubstitution jit.gl.abs jit.gl.slab @file op.abs.jxs;
+max objectfile jit.gl.slab.abs jit.gl.slab.abs;
+max definesubstitution jit.gl.slab.abs jit.gl.slab @file op.abs.jxs;
 
-max objectfile jit.gl.absdiff jit.gl.absdiff;
-max definesubstitution jit.gl.absdiff jit.gl.slab @file op.absdiff.jxs;
+max objectfile jit.gl.slab.absdiff jit.gl.slab.absdiff;
+max definesubstitution jit.gl.slab.absdiff jit.gl.slab @file op.absdiff.jxs;
 
-max objectfile jit.gl.acos jit.gl.acos;
-max definesubstitution jit.gl.acos jit.gl.slab @file op.acos.jxs;
+max objectfile jit.gl.slab.acos jit.gl.slab.acos;
+max definesubstitution jit.gl.slab.acos jit.gl.slab @file op.acos.jxs;
 
-max objectfile jit.gl.acosh jit.gl.acosh;
-max definesubstitution jit.gl.acosh jit.gl.slab @file op.acosh.jxs;
+max objectfile jit.gl.slab.acosh jit.gl.slab.acosh;
+max definesubstitution jit.gl.slab.acosh jit.gl.slab @file op.acosh.jxs;
 
-max objectfile jit.gl.add jit.gl.add;
-max definesubstitution jit.gl.add jit.gl.slab @file op.add.jxs;
+max objectfile jit.gl.slab.add jit.gl.slab.add;
+max definesubstitution jit.gl.slab.add jit.gl.slab @file op.add.jxs;
 
-max objectfile jit.gl.and jit.gl.and;
-max definesubstitution jit.gl.and jit.gl.slab @file op.and.jxs;
+max objectfile jit.gl.slab.and jit.gl.slab.and;
+max definesubstitution jit.gl.slab.and jit.gl.slab @file op.and.jxs;
 
-max objectfile jit.gl.asin jit.gl.asin;
-max definesubstitution jit.gl.asin jit.gl.slab @file op.asin.jxs;
+max objectfile jit.gl.slab.asin jit.gl.slab.asin;
+max definesubstitution jit.gl.slab.asin jit.gl.slab @file op.asin.jxs;
 
-max objectfile jit.gl.asinh jit.gl.asinh;
-max definesubstitution jit.gl.asinh jit.gl.slab @file op.asinh.jxs;
+max objectfile jit.gl.slab.asinh jit.gl.slab.asinh;
+max definesubstitution jit.gl.slab.asinh jit.gl.slab @file op.asinh.jxs;
 
-max objectfile jit.gl.atan jit.gl.atan;
-max definesubstitution jit.gl.atan jit.gl.slab @file op.atan.jxs;
+max objectfile jit.gl.slab.atan jit.gl.slab.atan;
+max definesubstitution jit.gl.slab.atan jit.gl.slab @file op.atan.jxs;
 
-max objectfile jit.gl.atan2 jit.gl.atan2;
-max definesubstitution jit.gl.atan2 jit.gl.slab @file op.atan2.jxs;
+max objectfile jit.gl.slab.atan2 jit.gl.slab.atan2;
+max definesubstitution jit.gl.slab.atan2 jit.gl.slab @file op.atan2.jxs;
 
-max objectfile jit.gl.atanh jit.gl.atanh;
-max definesubstitution jit.gl.atanh jit.gl.slab @file op.atanh.jxs;
+max objectfile jit.gl.slab.atanh jit.gl.slab.atanh;
+max definesubstitution jit.gl.slab.atanh jit.gl.slab @file op.atanh.jxs;
 
-max objectfile jit.gl.avg jit.gl.avg;
-max definesubstitution jit.gl.avg jit.gl.slab @file op.avg.jxs;
+max objectfile jit.gl.slab.avg jit.gl.slab.avg;
+max definesubstitution jit.gl.slab.avg jit.gl.slab @file op.avg.jxs;
 
-max objectfile jit.gl.ceil jit.gl.ceil;
-max definesubstitution jit.gl.ceil jit.gl.slab @file op.ceil.jxs;
+max objectfile jit.gl.slab.ceil jit.gl.slab.ceil;
+max definesubstitution jit.gl.slab.ceil jit.gl.slab @file op.ceil.jxs;
 
-max objectfile jit.gl.cos jit.gl.cos;
-max definesubstitution jit.gl.cos jit.gl.slab @file op.cos.jxs;
+max objectfile jit.gl.slab.cos jit.gl.slab.cos;
+max definesubstitution jit.gl.slab.cos jit.gl.slab @file op.cos.jxs;
 
-max objectfile jit.gl.cosh jit.gl.cosh;
-max definesubstitution jit.gl.cosh jit.gl.slab @file op.cosh.jxs;
+max objectfile jit.gl.slab.cosh jit.gl.slab.cosh;
+max definesubstitution jit.gl.slab.cosh jit.gl.slab @file op.cosh.jxs;
 
-max objectfile jit.gl.div jit.gl.div;
-max definesubstitution jit.gl.div jit.gl.slab @file op.div.jxs;
+max objectfile jit.gl.slab.div jit.gl.slab.div;
+max definesubstitution jit.gl.slab.div jit.gl.slab @file op.div.jxs;
 
-max objectfile jit.gl.eq jit.gl.eq;
-max definesubstitution jit.gl.eq jit.gl.slab @file op.eq.jxs;
+max objectfile jit.gl.slab.eq jit.gl.slab.eq;
+max definesubstitution jit.gl.slab.eq jit.gl.slab @file op.eq.jxs;
 
-max objectfile jit.gl.eqp jit.gl.eqp;
-max definesubstitution jit.gl.eqp jit.gl.slab @file op.eqp.jxs;
+max objectfile jit.gl.slab.eqp jit.gl.slab.eqp;
+max definesubstitution jit.gl.slab.eqp jit.gl.slab @file op.eqp.jxs;
 
-max objectfile jit.gl.exp jit.gl.exp;
-max definesubstitution jit.gl.exp jit.gl.slab @file op.exp.jxs;
+max objectfile jit.gl.slab.exp jit.gl.slab.exp;
+max definesubstitution jit.gl.slab.exp jit.gl.slab @file op.exp.jxs;
 
-max objectfile jit.gl.exp2 jit.gl.exp2;
-max definesubstitution jit.gl.exp2 jit.gl.slab @file op.exp2.jxs;
+max objectfile jit.gl.slab.exp2 jit.gl.slab.exp2;
+max definesubstitution jit.gl.slab.exp2 jit.gl.slab @file op.exp2.jxs;
 
-max objectfile jit.gl.floor jit.gl.floor;
-max definesubstitution jit.gl.floor jit.gl.slab @file op.floor.jxs;
+max objectfile jit.gl.slab.floor jit.gl.slab.floor;
+max definesubstitution jit.gl.slab.floor jit.gl.slab @file op.floor.jxs;
 
-max objectfile jit.gl.fract jit.gl.fract;
-max definesubstitution jit.gl.fract jit.gl.slab @file op.fract.jxs;
+max objectfile jit.gl.slab.fract jit.gl.slab.fract;
+max definesubstitution jit.gl.slab.fract jit.gl.slab @file op.fract.jxs;
 
-max objectfile jit.gl.gt jit.gl.gt;
-max definesubstitution jit.gl.gt jit.gl.slab @file op.gt.jxs;
+max objectfile jit.gl.slab.gt jit.gl.slab.gt;
+max definesubstitution jit.gl.slab.gt jit.gl.slab @file op.gt.jxs;
 
-max objectfile jit.gl.gte jit.gl.gte;
-max definesubstitution jit.gl.gte jit.gl.slab @file op.gte.jxs;
+max objectfile jit.gl.slab.gte jit.gl.slab.gte;
+max definesubstitution jit.gl.slab.gte jit.gl.slab @file op.gte.jxs;
 
-max objectfile jit.gl.gtep jit.gl.gtep;
-max definesubstitution jit.gl.gtep jit.gl.slab @file op.gtep.jxs;
+max objectfile jit.gl.slab.gtep jit.gl.slab.gtep;
+max definesubstitution jit.gl.slab.gtep jit.gl.slab @file op.gtep.jxs;
 
-max objectfile jit.gl.gtp jit.gl.gtp;
-max definesubstitution jit.gl.gtp jit.gl.slab @file op.gtp.jxs;
+max objectfile jit.gl.slab.gtp jit.gl.slab.gtp;
+max definesubstitution jit.gl.slab.gtp jit.gl.slab @file op.gtp.jxs;
 
-max objectfile jit.gl.hypot jit.gl.hypot;
-max definesubstitution jit.gl.hypot jit.gl.slab @file op.hypot.jxs;
+max objectfile jit.gl.slab.hypot jit.gl.slab.hypot;
+max definesubstitution jit.gl.slab.hypot jit.gl.slab @file op.hypot.jxs;
 
-max objectfile jit.gl.invert jit.gl.invert;
-max definesubstitution jit.gl.invert jit.gl.slab @file op.invert.jxs;
+max objectfile jit.gl.slab.invert jit.gl.slab.invert;
+max definesubstitution jit.gl.slab.invert jit.gl.slab @file op.invert.jxs;
 
-max objectfile jit.gl.invsqrt jit.gl.invsqrt;
-max definesubstitution jit.gl.invsqrt jit.gl.slab @file op.invsqrt.jxs;
+max objectfile jit.gl.slab.invsqrt jit.gl.slab.invsqrt;
+max definesubstitution jit.gl.slab.invsqrt jit.gl.slab @file op.invsqrt.jxs;
 
-max objectfile jit.gl.ln jit.gl.ln;
-max definesubstitution jit.gl.ln jit.gl.slab @file op.ln.jxs;
+max objectfile jit.gl.slab.ln jit.gl.slab.ln;
+max definesubstitution jit.gl.slab.ln jit.gl.slab @file op.ln.jxs;
 
-max objectfile jit.gl.log10 jit.gl.log10;
-max definesubstitution jit.gl.log10 jit.gl.slab @file op.log10.jxs;
+max objectfile jit.gl.slab.log10 jit.gl.slab.log10;
+max definesubstitution jit.gl.slab.log10 jit.gl.slab @file op.log10.jxs;
 
-max objectfile jit.gl.log2 jit.gl.log2;
-max definesubstitution jit.gl.log2 jit.gl.slab @file op.log2.jxs;
+max objectfile jit.gl.slab.log2 jit.gl.slab.log2;
+max definesubstitution jit.gl.slab.log2 jit.gl.slab @file op.log2.jxs;
 
-max objectfile jit.gl.lt jit.gl.lt;
-max definesubstitution jit.gl.lt jit.gl.slab @file op.lt.jxs;
+max objectfile jit.gl.slab.lt jit.gl.slab.lt;
+max definesubstitution jit.gl.slab.lt jit.gl.slab @file op.lt.jxs;
 
-max objectfile jit.gl.lte jit.gl.lte;
-max definesubstitution jit.gl.lte jit.gl.slab @file op.lte.jxs;
+max objectfile jit.gl.slab.lte jit.gl.slab.lte;
+max definesubstitution jit.gl.slab.lte jit.gl.slab @file op.lte.jxs;
 
-max objectfile jit.gl.ltep jit.gl.ltep;
-max definesubstitution jit.gl.ltep jit.gl.slab @file op.ltep.jxs;
+max objectfile jit.gl.slab.ltep jit.gl.slab.ltep;
+max definesubstitution jit.gl.slab.ltep jit.gl.slab @file op.ltep.jxs;
 
-max objectfile jit.gl.ltp jit.gl.ltp;
-max definesubstitution jit.gl.ltp jit.gl.slab @file op.ltp.jxs;
+max objectfile jit.gl.slab.ltp jit.gl.slab.ltp;
+max definesubstitution jit.gl.slab.ltp jit.gl.slab @file op.ltp.jxs;
 
-max objectfile jit.gl.max jit.gl.max;
-max definesubstitution jit.gl.max jit.gl.slab @file op.max.jxs;
+max objectfile jit.gl.slab.max jit.gl.slab.max;
+max definesubstitution jit.gl.slab.max jit.gl.slab @file op.max.jxs;
 
-max objectfile jit.gl.min jit.gl.min;
-max definesubstitution jit.gl.min jit.gl.slab @file op.min.jxs;
+max objectfile jit.gl.slab.min jit.gl.slab.min;
+max definesubstitution jit.gl.slab.min jit.gl.slab @file op.min.jxs;
 
-max objectfile jit.gl.mod jit.gl.mod;
-max definesubstitution jit.gl.mod jit.gl.slab @file op.mod.jxs;
+max objectfile jit.gl.slab.mod jit.gl.slab.mod;
+max definesubstitution jit.gl.slab.mod jit.gl.slab @file op.mod.jxs;
 
-max objectfile jit.gl.mult jit.gl.mult;
-max definesubstitution jit.gl.mult jit.gl.slab @file op.mult.jxs;
+max objectfile jit.gl.slab.mult jit.gl.slab.mult;
+max definesubstitution jit.gl.slab.mult jit.gl.slab @file op.mult.jxs;
 
-max objectfile jit.gl.neq jit.gl.neq;
-max definesubstitution jit.gl.neq jit.gl.slab @file op.neq.jxs;
+max objectfile jit.gl.slab.neq jit.gl.slab.neq;
+max definesubstitution jit.gl.slab.neq jit.gl.slab @file op.neq.jxs;
 
-max objectfile jit.gl.neqp jit.gl.neqp;
-max definesubstitution jit.gl.neqp jit.gl.slab @file op.neqp.jxs;
+max objectfile jit.gl.slab.neqp jit.gl.slab.neqp;
+max definesubstitution jit.gl.slab.neqp jit.gl.slab @file op.neqp.jxs;
 
-max objectfile jit.gl.normcos jit.gl.normcos;
-max definesubstitution jit.gl.normcos jit.gl.slab @file op.normcos.jxs;
+max objectfile jit.gl.slab.normcos jit.gl.slab.normcos;
+max definesubstitution jit.gl.slab.normcos jit.gl.slab @file op.normcos.jxs;
 
-max objectfile jit.gl.normsin jit.gl.normsin;
-max definesubstitution jit.gl.normsin jit.gl.slab @file op.normsin.jxs;
+max objectfile jit.gl.slab.normsin jit.gl.slab.normsin;
+max definesubstitution jit.gl.slab.normsin jit.gl.slab @file op.normsin.jxs;
 
-max objectfile jit.gl.not jit.gl.not;
-max definesubstitution jit.gl.not jit.gl.slab @file op.not.jxs;
+max objectfile jit.gl.slab.not jit.gl.slab.not;
+max definesubstitution jit.gl.slab.not jit.gl.slab @file op.not.jxs;
 
-max objectfile jit.gl.or jit.gl.or;
-max definesubstitution jit.gl.or jit.gl.slab @file op.or.jxs;
+max objectfile jit.gl.slab.or jit.gl.slab.or;
+max definesubstitution jit.gl.slab.or jit.gl.slab @file op.or.jxs;
 
-max objectfile jit.gl.pow jit.gl.pow;
-max definesubstitution jit.gl.pow jit.gl.slab @file op.pow.jxs;
+max objectfile jit.gl.slab.pow jit.gl.slab.pow;
+max definesubstitution jit.gl.slab.pow jit.gl.slab @file op.pow.jxs;
 
-max objectfile jit.gl.sign jit.gl.sign;
-max definesubstitution jit.gl.sign jit.gl.slab @file op.sign.jxs;
+max objectfile jit.gl.slab.sign jit.gl.slab.sign;
+max definesubstitution jit.gl.slab.sign jit.gl.slab @file op.sign.jxs;
 
-max objectfile jit.gl.sin jit.gl.sin;
-max definesubstitution jit.gl.sin jit.gl.slab @file op.sin.jxs;
+max objectfile jit.gl.slab.sin jit.gl.slab.sin;
+max definesubstitution jit.gl.slab.sin jit.gl.slab @file op.sin.jxs;
 
-max objectfile jit.gl.sinh jit.gl.sinh;
-max definesubstitution jit.gl.sinh jit.gl.slab @file op.sinh.jxs;
+max objectfile jit.gl.slab.sinh jit.gl.slab.sinh;
+max definesubstitution jit.gl.slab.sinh jit.gl.slab @file op.sinh.jxs;
 
-max objectfile jit.gl.sqrt jit.gl.sqrt;
-max definesubstitution jit.gl.sqrt jit.gl.slab @file op.sqrt.jxs;
+max objectfile jit.gl.slab.sqrt jit.gl.slab.sqrt;
+max definesubstitution jit.gl.slab.sqrt jit.gl.slab @file op.sqrt.jxs;
 
-max objectfile jit.gl.sub jit.gl.sub;
-max definesubstitution jit.gl.sub jit.gl.slab @file op.sub.jxs;
+max objectfile jit.gl.slab.sub jit.gl.slab.sub;
+max definesubstitution jit.gl.slab.sub jit.gl.slab @file op.sub.jxs;
 
-max objectfile jit.gl.tan jit.gl.tan;
-max definesubstitution jit.gl.tan jit.gl.slab @file op.tan.jxs;
+max objectfile jit.gl.slab.tan jit.gl.slab.tan;
+max definesubstitution jit.gl.slab.tan jit.gl.slab @file op.tan.jxs;
 
-max objectfile jit.gl.tanh jit.gl.tanh;
-max definesubstitution jit.gl.tanh jit.gl.slab @file op.tanh.jxs;
+max objectfile jit.gl.slab.tanh jit.gl.slab.tanh;
+max definesubstitution jit.gl.slab.tanh jit.gl.slab @file op.tanh.jxs;
 
-max objectfile jit.gl.xor jit.gl.xor;
-max definesubstitution jit.gl.xor jit.gl.slab @file op.xor.jxs;
+max objectfile jit.gl.slab.xor jit.gl.slab.xor;
+max definesubstitution jit.gl.slab.xor jit.gl.slab @file op.xor.jxs;
 
-max objectfile jit.gl.bloom.combine jit.gl.bloom.combine;
-max definesubstitution jit.gl.bloom.combine jit.gl.slab @file hdr.bloom.combine.jxs;
+max objectfile jit.gl.slab.bloom.combine jit.gl.slab.bloom.combine;
+max definesubstitution jit.gl.slab.bloom.combine jit.gl.slab @file hdr.bloom.combine.jxs;
 
-max objectfile jit.gl.bloom jit.gl.bloom;
-max definesubstitution jit.gl.bloom jit.gl.slab @file hdr.bloom.jxs;
+max objectfile jit.gl.slab.bloom jit.gl.slab.bloom;
+max definesubstitution jit.gl.slab.bloom jit.gl.slab @file hdr.bloom.jxs;
 
-max objectfile jit.gl.bloom.tonemap.aces jit.gl.bloom.tonemap.aces;
-max definesubstitution jit.gl.bloom.tonemap.aces jit.gl.slab @file hdr.bloom.tonemap.aces.jxs;
+max objectfile jit.gl.slab.bloom.tonemap.aces jit.gl.slab.bloom.tonemap.aces;
+max definesubstitution jit.gl.slab.bloom.tonemap.aces jit.gl.slab @file hdr.bloom.tonemap.aces.jxs;
 
-max objectfile jit.gl.bloom.tonemap jit.gl.bloom.tonemap;
-max definesubstitution jit.gl.bloom.tonemap jit.gl.slab @file hdr.bloom.tonemap.jxs;
+max objectfile jit.gl.slab.bloom.tonemap jit.gl.slab.bloom.tonemap;
+max definesubstitution jit.gl.slab.bloom.tonemap jit.gl.slab @file hdr.bloom.tonemap.jxs;
 
-max objectfile jit.gl.downsample.filter jit.gl.downsample.filter;
-max definesubstitution jit.gl.downsample.filter jit.gl.slab @file hdr.downsample.filter.jxs;
+max objectfile jit.gl.slab.downsample.filter jit.gl.slab.downsample.filter;
+max definesubstitution jit.gl.slab.downsample.filter jit.gl.slab @file hdr.downsample.filter.jxs;
 
-max objectfile jit.gl.logavgluma jit.gl.logavgluma;
-max definesubstitution jit.gl.logavgluma jit.gl.slab @file hdr.logavgluma.jxs;
+max objectfile jit.gl.slab.logavgluma jit.gl.slab.logavgluma;
+max definesubstitution jit.gl.slab.logavgluma jit.gl.slab @file hdr.logavgluma.jxs;
 
-max objectfile jit.gl.mipsamp jit.gl.mipsamp;
-max definesubstitution jit.gl.mipsamp jit.gl.slab @file hdr.mipsamp.jxs;
+max objectfile jit.gl.slab.mipsamp jit.gl.slab.mipsamp;
+max definesubstitution jit.gl.slab.mipsamp jit.gl.slab @file hdr.mipsamp.jxs;
 
-max objectfile jit.gl.tonemap jit.gl.tonemap;
-max definesubstitution jit.gl.tonemap jit.gl.slab @file hdr.tonemap.jxs;
+max objectfile jit.gl.slab.tonemap jit.gl.slab.tonemap;
+max definesubstitution jit.gl.slab.tonemap jit.gl.slab @file hdr.tonemap.jxs;
 
-max objectfile jit.gl.upsample.filter.sum jit.gl.upsample.filter.sum;
-max definesubstitution jit.gl.upsample.filter.sum jit.gl.slab @file hdr.upsample.filter.sum.jxs;
+max objectfile jit.gl.slab.upsample.filter.sum jit.gl.slab.upsample.filter.sum;
+max definesubstitution jit.gl.slab.upsample.filter.sum jit.gl.slab @file hdr.upsample.filter.sum.jxs;
 
-max objectfile jit.gl.depth jit.gl.depth;
-max definesubstitution jit.gl.depth jit.gl.slab @file mrt.depth.jxs;
+max objectfile jit.gl.slab.depth jit.gl.slab.depth;
+max definesubstitution jit.gl.slab.depth jit.gl.slab @file mrt.depth.jxs;
 
-max objectfile jit.gl.depth2pass jit.gl.depth2pass;
-max definesubstitution jit.gl.depth2pass jit.gl.slab @file mrt.depth2pass.jxs;
+max objectfile jit.gl.slab.depth2pass jit.gl.slab.depth2pass;
+max definesubstitution jit.gl.slab.depth2pass jit.gl.slab @file mrt.depth2pass.jxs;
 
-max objectfile jit.gl.dof jit.gl.dof;
-max definesubstitution jit.gl.dof jit.gl.slab @file mrt.dof.jxs;
+max objectfile jit.gl.slab.dof jit.gl.slab.dof;
+max definesubstitution jit.gl.slab.dof jit.gl.slab @file mrt.dof.jxs;
 
-max objectfile jit.gl.fxaa jit.gl.fxaa;
-max definesubstitution jit.gl.fxaa jit.gl.slab @file mrt.fxaa.jxs;
+max objectfile jit.gl.slab.fxaa jit.gl.slab.fxaa;
+max definesubstitution jit.gl.slab.fxaa jit.gl.slab @file mrt.fxaa.jxs;
 
-max objectfile jit.gl.motion.blur jit.gl.motion.blur;
-max definesubstitution jit.gl.motion.blur jit.gl.slab @file mrt.motion.blur.jxs;
+max objectfile jit.gl.slab.motion.blur jit.gl.slab.motion.blur;
+max definesubstitution jit.gl.slab.motion.blur jit.gl.slab @file mrt.motion.blur.jxs;
 
-max objectfile jit.gl.motion.glitch jit.gl.motion.glitch;
-max definesubstitution jit.gl.motion.glitch jit.gl.slab @file mrt.motion.glitch.jxs;
+max objectfile jit.gl.slab.motion.glitch jit.gl.slab.motion.glitch;
+max definesubstitution jit.gl.slab.motion.glitch jit.gl.slab @file mrt.motion.glitch.jxs;
 
-max objectfile jit.gl.render.directional jit.gl.render.directional;
-max definesubstitution jit.gl.render.directional jit.gl.slab @file mrt.render.directional.jxs;
+max objectfile jit.gl.slab.render.directional jit.gl.slab.render.directional;
+max definesubstitution jit.gl.slab.render.directional jit.gl.slab @file mrt.render.directional.jxs;
 
-max objectfile jit.gl.simple.render jit.gl.simple.render;
-max definesubstitution jit.gl.simple.render jit.gl.slab @file mrt.simple.render.jxs;
+max objectfile jit.gl.slab.simple.render jit.gl.slab.simple.render;
+max definesubstitution jit.gl.slab.simple.render jit.gl.slab @file mrt.simple.render.jxs;
 
-max objectfile jit.gl.simple.shade jit.gl.simple.shade;
-max definesubstitution jit.gl.simple.shade jit.gl.slab @file mrt.simple.shade.jxs;
+max objectfile jit.gl.slab.simple.shade jit.gl.slab.simple.shade;
+max definesubstitution jit.gl.slab.simple.shade jit.gl.slab @file mrt.simple.shade.jxs;
 
-max objectfile jit.gl.ssao.render jit.gl.ssao.render;
-max definesubstitution jit.gl.ssao.render jit.gl.slab @file mrt.ssao.render.jxs;
+max objectfile jit.gl.slab.ssao.render jit.gl.slab.ssao.render;
+max definesubstitution jit.gl.slab.ssao.render jit.gl.slab @file mrt.ssao.render.jxs;
 
-max objectfile jit.gl.unpack jit.gl.unpack;
-max definesubstitution jit.gl.unpack jit.gl.slab @file mrt.unpack.jxs;
+max objectfile jit.gl.slab.unpack jit.gl.slab.unpack;
+max definesubstitution jit.gl.slab.unpack jit.gl.slab @file mrt.unpack.jxs;
 
-max objectfile jit.gl.blur.x jit.gl.blur.x;
-max definesubstitution jit.gl.blur.x jit.gl.slab @file ssao.blur.x.jxs;
+max objectfile jit.gl.slab.blur.x jit.gl.slab.blur.x;
+max definesubstitution jit.gl.slab.blur.x jit.gl.slab @file ssao.blur.x.jxs;
 
-max objectfile jit.gl.blur.y.depth jit.gl.blur.y.depth;
-max definesubstitution jit.gl.blur.y.depth jit.gl.slab @file ssao.blur.y.depth.jxs;
+max objectfile jit.gl.slab.blur.y.depth jit.gl.slab.blur.y.depth;
+max definesubstitution jit.gl.slab.blur.y.depth jit.gl.slab @file ssao.blur.y.depth.jxs;
 
-max objectfile jit.gl.blur.y jit.gl.blur.y;
-max definesubstitution jit.gl.blur.y jit.gl.slab @file ssao.blur.y.jxs;
+max objectfile jit.gl.slab.blur.y jit.gl.slab.blur.y;
+max definesubstitution jit.gl.slab.blur.y jit.gl.slab @file ssao.blur.y.jxs;
 
-max objectfile jit.gl.box8.vp jit.gl.box8.vp;
-max definesubstitution jit.gl.box8.vp jit.gl.slab @file cf.box8.vp.glsl;
+max objectfile jit.gl.slab.box8.vp jit.gl.slab.box8.vp;
+max definesubstitution jit.gl.slab.box8.vp jit.gl.slab @file cf.box8.vp.glsl;
 
-max objectfile jit.gl.box9.vp jit.gl.box9.vp;
-max definesubstitution jit.gl.box9.vp jit.gl.slab @file cf.box9.vp.glsl;
+max objectfile jit.gl.slab.box9.vp jit.gl.slab.box9.vp;
+max definesubstitution jit.gl.slab.box9.vp jit.gl.slab @file cf.box9.vp.glsl;
 
-max objectfile jit.gl.cross5.vp jit.gl.cross5.vp;
-max definesubstitution jit.gl.cross5.vp jit.gl.slab @file cf.cross5.vp.glsl;
+max objectfile jit.gl.slab.cross5.vp jit.gl.slab.cross5.vp;
+max definesubstitution jit.gl.slab.cross5.vp jit.gl.slab @file cf.cross5.vp.glsl;
 
-max objectfile jit.gl.diag5.vp jit.gl.diag5.vp;
-max definesubstitution jit.gl.diag5.vp jit.gl.slab @file cf.diag5.vp.glsl;
+max objectfile jit.gl.slab.diag5.vp jit.gl.slab.diag5.vp;
+max definesubstitution jit.gl.slab.diag5.vp jit.gl.slab @file cf.diag5.vp.glsl;
 
-max objectfile jit.gl.binary.vp jit.gl.binary.vp;
-max definesubstitution jit.gl.binary.vp jit.gl.slab @file op.binary.vp.glsl;
+max objectfile jit.gl.slab.binary.vp jit.gl.slab.binary.vp;
+max definesubstitution jit.gl.slab.binary.vp jit.gl.slab @file op.binary.vp.glsl;
 
-max objectfile jit.gl.unary.vp jit.gl.unary.vp;
-max definesubstitution jit.gl.unary.vp jit.gl.slab @file op.unary.vp.glsl;
+max objectfile jit.gl.slab.unary.vp jit.gl.slab.unary.vp;
+max definesubstitution jit.gl.slab.unary.vp jit.gl.slab @file op.unary.vp.glsl;
 
-max objectfile jit.gl.basic.vp jit.gl.basic.vp;
-max definesubstitution jit.gl.basic.vp jit.gl.shader @file sh.basic.vp.glsl;
+max objectfile jit.gl.shader.basic.vp jit.gl.shader.basic.vp;
+max definesubstitution jit.gl.shader.basic.vp jit.gl.shader @file sh.basic.vp.glsl;
 
-max objectfile jit.gl.passthru.color.fp jit.gl.passthru.color.fp;
-max definesubstitution jit.gl.passthru.color.fp jit.gl.shader @file sh.passthru.color.fp.glsl;
+max objectfile jit.gl.shader.passthru.color.fp jit.gl.shader.passthru.color.fp;
+max definesubstitution jit.gl.shader.passthru.color.fp jit.gl.shader @file sh.passthru.color.fp.glsl;
 
-max objectfile jit.gl.passthru.xform.vp jit.gl.passthru.xform.vp;
-max definesubstitution jit.gl.passthru.xform.vp jit.gl.shader @file sh.passthru.xform.vp.glsl;
+max objectfile jit.gl.shader.passthru.xform.vp jit.gl.shader.passthru.xform.vp;
+max definesubstitution jit.gl.shader.passthru.xform.vp jit.gl.shader @file sh.passthru.xform.vp.glsl;
 
-max objectfile jit.gl.passthrudim.vp jit.gl.passthrudim.vp;
-max definesubstitution jit.gl.passthrudim.vp jit.gl.shader @file sh.passthrudim.vp.glsl;
+max objectfile jit.gl.shader.passthrudim.vp jit.gl.shader.passthrudim.vp;
+max definesubstitution jit.gl.shader.passthrudim.vp jit.gl.shader @file sh.passthrudim.vp.glsl;
 
-max objectfile jit.gl.3Dlabs-license jit.gl.3Dlabs-license;
-max definesubstitution jit.gl.3Dlabs-license jit.gl.shader @file 3Dlabs-license.txt;
+max objectfile jit.gl.shader.3Dlabs-license jit.gl.shader.3Dlabs-license;
+max definesubstitution jit.gl.shader.3Dlabs-license jit.gl.shader @file 3Dlabs-license.txt;
 
-max objectfile jit.gl.LightworkDesign-license jit.gl.LightworkDesign-license;
-max definesubstitution jit.gl.LightworkDesign-license jit.gl.slab @file LightworkDesign-license.txt;
+max objectfile jit.gl.slab.LightworkDesign-license jit.gl.slab.LightworkDesign-license;
+max definesubstitution jit.gl.slab.LightworkDesign-license jit.gl.slab @file LightworkDesign-license.txt;
 
-max objectfile jit.gl.blobby jit.gl.blobby;
-max definesubstitution jit.gl.blobby jit.gl.shader @file fx.blobby.jxs;
+max objectfile jit.gl.shader.blobby jit.gl.shader.blobby;
+max definesubstitution jit.gl.shader.blobby jit.gl.shader @file fx.blobby.jxs;
 
-max objectfile jit.gl.tiles jit.gl.tiles;
-max definesubstitution jit.gl.tiles jit.gl.shader @file fx.tiles.jxs;
+max objectfile jit.gl.shader.tiles jit.gl.shader.tiles;
+max definesubstitution jit.gl.shader.tiles jit.gl.shader @file fx.tiles.jxs;
 
-max objectfile jit.gl.slide jit.gl.slide;
-max definesubstitution jit.gl.slide jit.gl.slab @file tp.slide.jxs;
+max objectfile jit.gl.slab.slide jit.gl.slab.slide;
+max definesubstitution jit.gl.slab.slide jit.gl.slab @file tp.slide.jxs;
 
-max objectfile jit.gl.cartopol jit.gl.cartopol;
-max definesubstitution jit.gl.cartopol jit.gl.slab @file td.cartopol.jxs;
+max objectfile jit.gl.slab.cartopol jit.gl.slab.cartopol;
+max definesubstitution jit.gl.slab.cartopol jit.gl.slab @file td.cartopol.jxs;
 
-max objectfile jit.gl.fisheye jit.gl.fisheye;
-max definesubstitution jit.gl.fisheye jit.gl.slab @file td.fisheye.jxs;
+max objectfile jit.gl.slab.fisheye jit.gl.slab.fisheye;
+max definesubstitution jit.gl.slab.fisheye jit.gl.slab @file td.fisheye.jxs;
 
-max objectfile jit.gl.kaleido jit.gl.kaleido;
-max definesubstitution jit.gl.kaleido jit.gl.slab @file td.kaleido.jxs;
+max objectfile jit.gl.slab.kaleido jit.gl.slab.kaleido;
+max definesubstitution jit.gl.slab.kaleido jit.gl.slab @file td.kaleido.jxs;
 
-max objectfile jit.gl.lens jit.gl.lens;
-max definesubstitution jit.gl.lens jit.gl.slab @file td.lens.jxs;
+max objectfile jit.gl.slab.lens jit.gl.slab.lens;
+max definesubstitution jit.gl.slab.lens jit.gl.slab @file td.lens.jxs;
 
-max objectfile jit.gl.lumadisplace jit.gl.lumadisplace;
-max definesubstitution jit.gl.lumadisplace jit.gl.slab @file td.lumadisplace.jxs;
+max objectfile jit.gl.slab.lumadisplace jit.gl.slab.lumadisplace;
+max definesubstitution jit.gl.slab.lumadisplace jit.gl.slab @file td.lumadisplace.jxs;
 
-max objectfile jit.gl.mirror jit.gl.mirror;
-max definesubstitution jit.gl.mirror jit.gl.slab @file td.mirror.jxs;
+max objectfile jit.gl.slab.mirror jit.gl.slab.mirror;
+max definesubstitution jit.gl.slab.mirror jit.gl.slab @file td.mirror.jxs;
 
-max objectfile jit.gl.plane3d jit.gl.plane3d;
-max definesubstitution jit.gl.plane3d jit.gl.slab @file td.plane3d.jxs;
+max objectfile jit.gl.slab.plane3d jit.gl.slab.plane3d;
+max definesubstitution jit.gl.slab.plane3d jit.gl.slab @file td.plane3d.jxs;
 
-max objectfile jit.gl.repos jit.gl.repos;
-max definesubstitution jit.gl.repos jit.gl.slab @file td.repos.jxs;
+max objectfile jit.gl.slab.repos jit.gl.slab.repos;
+max definesubstitution jit.gl.slab.repos jit.gl.slab @file td.repos.jxs;
 
-max objectfile jit.gl.resample jit.gl.resample;
-max definesubstitution jit.gl.resample jit.gl.slab @file td.resample.jxs;
+max objectfile jit.gl.slab.resample jit.gl.slab.resample;
+max definesubstitution jit.gl.slab.resample jit.gl.slab @file td.resample.jxs;
 
-max objectfile jit.gl.ripples jit.gl.ripples;
-max definesubstitution jit.gl.ripples jit.gl.slab @file td.ripples.jxs;
+max objectfile jit.gl.slab.ripples jit.gl.slab.ripples;
+max definesubstitution jit.gl.slab.ripples jit.gl.slab @file td.ripples.jxs;
 
-max objectfile jit.gl.rota jit.gl.rota;
-max definesubstitution jit.gl.rota jit.gl.slab @file td.rota.jxs;
+max objectfile jit.gl.slab.rota jit.gl.slab.rota;
+max definesubstitution jit.gl.slab.rota jit.gl.slab @file td.rota.jxs;
 
-max objectfile jit.gl.sinefold jit.gl.sinefold;
-max definesubstitution jit.gl.sinefold jit.gl.slab @file td.sinefold.jxs;
+max objectfile jit.gl.slab.sinefold jit.gl.slab.sinefold;
+max definesubstitution jit.gl.slab.sinefold jit.gl.slab @file td.sinefold.jxs;
 
-max objectfile jit.gl.twirl jit.gl.twirl;
-max definesubstitution jit.gl.twirl jit.gl.slab @file td.twirl.jxs;
+max objectfile jit.gl.slab.twirl jit.gl.slab.twirl;
+max definesubstitution jit.gl.slab.twirl jit.gl.slab @file td.twirl.jxs;
 
-max objectfile jit.gl.wobble jit.gl.wobble;
-max definesubstitution jit.gl.wobble jit.gl.slab @file td.wobble.jxs;
+max objectfile jit.gl.slab.wobble jit.gl.slab.wobble;
+max definesubstitution jit.gl.slab.wobble jit.gl.slab @file td.wobble.jxs;
 
-max objectfile jit.gl.dissolve jit.gl.dissolve;
-max definesubstitution jit.gl.dissolve jit.gl.slab @file tr.dissolve.jxs;
+max objectfile jit.gl.slab.dissolve jit.gl.slab.dissolve;
+max definesubstitution jit.gl.slab.dissolve jit.gl.slab @file tr.dissolve.jxs;
 
-max objectfile jit.gl.edgeblend jit.gl.edgeblend;
-max definesubstitution jit.gl.edgeblend jit.gl.slab @file tr.edgeblend.jxs;
+max objectfile jit.gl.slab.edgeblend jit.gl.slab.edgeblend;
+max definesubstitution jit.gl.slab.edgeblend jit.gl.slab @file tr.edgeblend.jxs;
 
-max objectfile jit.gl.gridwipe jit.gl.gridwipe;
-max definesubstitution jit.gl.gridwipe jit.gl.slab @file tr.gridwipe.jxs;
+max objectfile jit.gl.slab.gridwipe jit.gl.slab.gridwipe;
+max definesubstitution jit.gl.slab.gridwipe jit.gl.slab @file tr.gridwipe.jxs;
 
-max objectfile jit.gl.shrinkwipe jit.gl.shrinkwipe;
-max definesubstitution jit.gl.shrinkwipe jit.gl.slab @file tr.shrinkwipe.jxs;
+max objectfile jit.gl.slab.shrinkwipe jit.gl.slab.shrinkwipe;
+max definesubstitution jit.gl.slab.shrinkwipe jit.gl.slab @file tr.shrinkwipe.jxs;
 
-max objectfile jit.gl.vignettes jit.gl.vignettes;
-max definesubstitution jit.gl.vignettes jit.gl.slab @file tr.vignettes.jxs;
+max objectfile jit.gl.slab.vignettes jit.gl.slab.vignettes;
+max definesubstitution jit.gl.slab.vignettes jit.gl.slab @file tr.vignettes.jxs;
 
-max objectfile jit.gl.gnoise.2d jit.gl.gnoise.2d;
-max definesubstitution jit.gl.gnoise.2d jit.gl.shader @file vd.gnoise.2d.jxs;
+max objectfile jit.gl.shader.gnoise.2d jit.gl.shader.gnoise.2d;
+max definesubstitution jit.gl.shader.gnoise.2d jit.gl.shader @file vd.gnoise.2d.jxs;
 
-max objectfile jit.gl.gnoise.3d jit.gl.gnoise.3d;
-max definesubstitution jit.gl.gnoise.3d jit.gl.shader @file vd.gnoise.3d.jxs;
+max objectfile jit.gl.shader.gnoise.3d jit.gl.shader.gnoise.3d;
+max definesubstitution jit.gl.shader.gnoise.3d jit.gl.shader @file vd.gnoise.3d.jxs;
 
-max objectfile jit.gl.twist jit.gl.twist;
-max definesubstitution jit.gl.twist jit.gl.shader @file vd.twist.jxs;
+max objectfile jit.gl.shader.twist jit.gl.shader.twist;
+max definesubstitution jit.gl.shader.twist jit.gl.shader @file vd.twist.jxs;
 
-max objectfile jit.gl.vertex.attr jit.gl.vertex.attr;
-max definesubstitution jit.gl.vertex.attr jit.gl.shader @file vd.vertex.attr.jxs;
+max objectfile jit.gl.shader.vertex.attr jit.gl.shader.vertex.attr;
+max definesubstitution jit.gl.shader.vertex.attr jit.gl.shader @file vd.vertex.attr.jxs;
 
-max objectfile jit.gl.tangents.mdl jit.gl.tangents.mdl;
-max definesubstitution jit.gl.tangents.mdl jit.gl.shader @file viz.tangents.mdl.jxs;
+max objectfile jit.gl.shader.tangents.mdl jit.gl.shader.tangents.mdl;
+max definesubstitution jit.gl.shader.tangents.mdl jit.gl.shader @file viz.tangents.mdl.jxs;
 
-max objectfile jit.gl.tangents.view jit.gl.tangents.view;
-max definesubstitution jit.gl.tangents.view jit.gl.shader @file viz.tangents.view.jxs;
+max objectfile jit.gl.shader.tangents.view jit.gl.shader.tangents.view;
+max definesubstitution jit.gl.shader.tangents.view jit.gl.shader @file viz.tangents.view.jxs;
 
-max objectfile jit.gl.normals.mdl jit.gl.normals.mdl;
-max definesubstitution jit.gl.normals.mdl jit.gl.shader @file vz.normals.mdl.jxs;
+max objectfile jit.gl.shader.normals.mdl jit.gl.shader.normals.mdl;
+max definesubstitution jit.gl.shader.normals.mdl jit.gl.shader @file vz.normals.mdl.jxs;
 
-max objectfile jit.gl.normals.view jit.gl.normals.view;
-max definesubstitution jit.gl.normals.view jit.gl.shader @file vz.normals.view.jxs;
+max objectfile jit.gl.shader.normals.view jit.gl.shader.normals.view;
+max definesubstitution jit.gl.shader.normals.view jit.gl.shader @file vz.normals.view.jxs;
 
-max objectfile jit.gl.texcoords jit.gl.texcoords;
-max definesubstitution jit.gl.texcoords jit.gl.shader @file vz.texcoords.jxs;
+max objectfile jit.gl.shader.texcoords jit.gl.shader.texcoords;
+max definesubstitution jit.gl.shader.texcoords jit.gl.shader @file vz.texcoords.jxs;
 

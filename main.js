@@ -23,11 +23,14 @@ function loadFolder(p){
 			let b = file.base;
 			let n = file.name;
 			let t = n.split('.')[0];
-			n = 'jit.gl.' + n.replace(/^[^.]+\./g, '');
-
-			let o = 'jit.gl.shader';
+			let o;
+			
 			if (t.match(/cc|co|cf|gn|hdr|mrt|ssao|op|tp|td|tr/)){
+				n = 'jit.gl.slab.' + n.replace(/^[^.]+\./g, '');
 				o = 'jit.gl.slab';
+			} else {
+				n = 'jit.gl.shader.' + n.replace(/^[^.]+\./g, '');
+				o = 'jit.gl.shader';
 			}
 			mappings += `max objectfile ${n} ${n};\n`;
 			mappings += `max definesubstitution ${n} ${o} @file ${b};\n\n`;

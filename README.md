@@ -1,5 +1,9 @@
 # gl.shadermappings
 
+:::Warning
+This package is deprecated. Please install the [AV Toolbox](https://github.com/tmhglnd/av-toolbox) through the Package Manager
+:::
+
 Max has quite a few shaders build into the application. But if you want to patch with them you have to type `jit.gl.slab @file <shaderfile>` which is usually quite a hassle. Also you have to remember what the shader file name is. This simple objectmappings file will do all this work for you. How it works:
 
 1. See all the shaderfiles in the autocomplete field when typing `jit.gl.`
@@ -27,6 +31,10 @@ Max has quite a few shaders build into the application. But if you want to patch
 3. $ git clone https://github.com/tmhglnd/gl.shadermappings.git
 4. restart Max8
 ```
+
+## Build
+
+If you want to build the list of mappings for Max yourself you can run the `main.js` program via `npm start`. Currenlty only made to run with Mac.
 
 # License
 
